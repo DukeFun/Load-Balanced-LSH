@@ -21,7 +21,7 @@ function [iNN,cand] = lshlookup(x0,x,T,varargin)
 %     use. Default: L1 if T.type is 'lsh' and L2 if it's 'e2lsh'.
 %   'verb' : verbosity (overrides T.verbose)
 %
-% (C) Greg Shakhnarovich, TTI-Chicago (2008)
+% Revised from (C) Greg Shakhnarovich, TTI-Chicago (2008)
 
 distfun='lpnorm';
 switch T(1).type,
