@@ -22,7 +22,7 @@ function d = lpnorm(x1,x2,p,CHUNKSIZE)
 % in chunks. Default chunk size is 100M; to change, call
 % d=lpnorm(X1,X2,P,CHUNKSIZE)
 %
-% (C) 2007 Greg Shakhnarovich,  TTI-Chicago
+% Revised from (C) 2007 Greg Shakhnarovich,  TTI-Chicago
 
 if (nargin < 3)
   p=1;
