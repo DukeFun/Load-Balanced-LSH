@@ -9,7 +9,7 @@ function v =findbucket(type,x,I)
 % the value of each component is an integer between -128 and 127.
 %
 % 
-% (C) Greg Shakhnarovich, TTI-Chicago  (2008)
+% Revised from (C) Greg Shakhnarovich, TTI-Chicago  (2008)
 
 
 switch type,
