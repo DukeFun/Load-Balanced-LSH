@@ -11,7 +11,7 @@ function T = lshins(T,x,ind)
 %   instead of assuming that columns of X have indices 1..size(X,2), uses IND
 %    
 %
-% (C) Greg Shakhnarovich, TTI-Chicago (2008)
+% Revised from (C) Greg Shakhnarovich, TTI-Chicago (2008)
 
 
 % fields of T:
