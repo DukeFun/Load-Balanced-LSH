@@ -58,7 +58,7 @@ function T = lsh(type,l,k,d,x,varargin)
 % "cells" of width W; the hash value is determined by the cell into which
 % a projected+shifted value falls.
 % 
-% (C) Greg Shakhnarovich, TTI-Chicago (2008)
+% Revised from (C) Greg Shakhnarovich, TTI-Chicago (2008)
 
 %b=inf;  %bucket最大容量
 b = 27;
